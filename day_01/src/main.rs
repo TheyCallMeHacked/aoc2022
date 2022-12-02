@@ -22,7 +22,7 @@ fn main() {
     }
     println!("--- Day 1: Calorie Counting ---\n");
     println!("Puzzle 1: {}\n", max1);
-    println!("Puzzle 2: {}\n", max1 + max2 + max3);
+    println!("Puzzle 2: {}", max1 + max2 + max3);
 }
 
 fn new_max(val: &mut i32, max1: &mut i32, max2: &mut i32, max3: &mut i32) {
